@@ -1,0 +1,21 @@
+# Docker
+/docker/postgres/data/
+
+# OS
+.DS_Store
+
+# Yii2
+/runtime/*
+!/runtime/.gitignore
+/web/assets/*
+!/web/assets/.gitignore
+
+# Composer dependencies
+/vendor/
+
+# Ide
+/.fleet
+/.nova
+/.vscode
+/.idea
+.phpactor.json
